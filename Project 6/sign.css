@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+body {
+    background: url(bg.jpeg) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 99;
+    background: transparent;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 23px;
+    font-weight: 600;
+}
+hr{
+    color: #fff;
+}
+.search input{
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    right: 100px;
+    outline: none;
+    color: #fff;
+}
+.search i{
+    position: absolute;
+    right: 110px;
+    top: 22px;
+    color: #fff;
+}
+.home{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 75%;
+    box-shadow: 0px 0px 10px 12px rgba(171, 174, 180, 0.1);
+    transform: translate(-50% , -50%);
+    background: url(bg.jpeg)no-repeat center center/cover;
+    background-position: center;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 100px 0;
+}
+.logo{
+    position: relative;
+    text-decoration: none;
+    color: #8fc131;
+    font-size: 3em;
+    font-weight: 700;
+    top: -40px;
+    left: 80px;
+}
+.content h2{
+    font-size: 3.5em;
+    text-align: center;
+    color: #fff;
+}
+h3{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+.content p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+}
+.icon{
+    margin-top: 20px;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.icon i{
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #fff;
+}
+.login {
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    width: 400px;
+    position: relative;
+    padding: 100px 30px;
+    backdrop-filter: blur(20px);
+}
+
+.login h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.login .input {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.input1 {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white; 
+    width: 100%;
+    height: 100%;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.input i {
+    font-size: 1.5vw;
+    position: relative;
+    right: -310px;
+    bottom: 27px;
+    color: #fff;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 1.3vw;
+}
+
+.check a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.check a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+button {
+    border: 2px solid crimson;
+    border-radius: 8px;
+    font-size: 1.5vw;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6px 10px;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:active {
+    font-size: 25px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.sign-up p {
+    color: #fff;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}

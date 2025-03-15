@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(206, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.certificate {
+    background-color: rgb(202, 234, 223);
+    width: 600px;
+    margin: 15vh auto;
+    padding: 20px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+thead{
+    background-color: rgb(120, 124, 231);
+}
+tbody{
+    background-color: rgb(180, 212, 223);
+}
+
+.tr1{
+    background-color: lightblue;
+}
+.tr2{
+    background-color: rgb(213, 231, 237);
+}
+.student-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.marks-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.marks-table th, .marks-table td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
